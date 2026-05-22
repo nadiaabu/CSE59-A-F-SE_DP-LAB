@@ -1,6 +1,5 @@
-# 
-Software Requirements Specification (SRS)
-Hospital Management System (HMS)
+# Software Requirements Specification (SRS)
+# Hospital Management System (HMS)
 
 ------------------------------------------------------------
 PREFACE
@@ -16,8 +15,7 @@ VERSION HISTORY
 ------------------------------------------------------------
 
 Version 1.0 – Initial Draft
-Version 1.1 – Added non-functional requirements and system models
-Version 1.2 – Refined system evolution and glossary
+
 
 ------------------------------------------------------------
 1. INTRODUCTION
@@ -317,112 +315,33 @@ Portability
 ------------------------------------------------------------
 
 CONTEXT DIAGRAM
-
-The context diagram represents interactions between:
-
-- Patients
-- Doctors
-- Nurses
-- Receptionists
-- Pharmacists
-- Admins
-- External payment systems
-- Laboratory systems
+<img src="images/context-diagram.png">
 
 ------------------------------------------------------------
 ACTIVITY DIAGRAM
 ------------------------------------------------------------
-
-Includes:
-
-- Patient registration workflow
-- Appointment booking process
-- Billing and payment process
-- Prescription workflow
-- Laboratory testing workflow
+<img src="images/activity-diagram.png">
 
 ------------------------------------------------------------
 USE CASE DIAGRAMS
 ------------------------------------------------------------
-
-Patient
-- Register/Login
-- Book appointments
-- View reports
-- Make payments
-
-Doctor
-- View patient history
-- Diagnose patients
-- Prescribe medicines
-- Upload reports
-
-Admin
-- Manage users
-- Generate reports
-- Configure settings
-
-Receptionist
-- Register patients
-- Schedule appointments
-- Generate bills
-
-Pharmacist
-- Manage medicine inventory
-- Process prescriptions
+<img src="images/case-diagram.png">
 
 ------------------------------------------------------------
 SEQUENCE DIAGRAM
 ------------------------------------------------------------
-
-Illustrates:
-
-- Appointment booking sequence
-- Billing and payment workflow
-- Prescription generation process
-- Laboratory report upload process
+<img src="images/sequence-diagram.png">
 
 ------------------------------------------------------------
 ENTITY-RELATIONSHIP DIAGRAM
 ------------------------------------------------------------
-
-Entities:
-
-- Patient
-- Doctor
-- Appointment
-- Prescription
-- Billing
-- Laboratory Report
-- Medicine
-- User
-- Department
-
-Relationships:
-
-- One patient can have many appointments
-- One doctor can treat many patients
-- One appointment generates one bill
-- One prescription may contain multiple medicines
-- One department can have many doctors
+<img src="images/entity-diagram.png">
 
 ------------------------------------------------------------
 STATE DIAGRAM
 ------------------------------------------------------------
 
-Appointment States:
-
-- Pending
-- Confirmed
-- Completed
-- Cancelled
-
-Patient States:
-
-- Registered
-- Under Treatment
-- Discharged
-
+<img src="images/state-diagram.png">
 ------------------------------------------------------------
 5. SYSTEM EVOLUTION
 ------------------------------------------------------------
